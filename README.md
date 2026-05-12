@@ -33,4 +33,3 @@ El directorio de trabajo está organizado numerando los archivos para seguir el 
 * **Modelado de Datos:** Esquema en Estrella (Star Schema), SCD Tipo 1.
 * **Power BI:** Importación de datos, Modelado visual, DAX básico, Formato condicional y Cuadros de mando ejecutivos.
 
-ç
