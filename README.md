@@ -16,6 +16,9 @@ El directorio de trabajo está organizado numerando los archivos para seguir el 
   * Memoria técnica detallada de las **Fases A hasta G**.
   * Explica paso a paso las decisiones arquitectónicas, la generación de datos, la corrección de errores en la importación, la configuración de la seguridad (roles) y el reprocesado de datos por cambios en la lógica de negocio.
 
+* 📄 **`001b. Corrección de Staging.pdf`**
+    * **Anexo importante:** Documento técnico que explica la refactorización de la capa de Staging, pasando de un modelo de vistas lógicas a una **materialización mediante tablas físicas** para optimizar el rendimiento del proceso ETL.
+
 * 📊 **`002. Visualización.pbix`**
   * Archivo de **Power BI** correspondiente a la **Fase H** del proyecto.
   * Contiene un cuadro de mando interactivo con 6 visualizaciones clave conectadas directamente a la capa `ANALYTICS` de Snowflake, preparadas para el usuario de negocio.
@@ -30,6 +33,7 @@ El directorio de trabajo está organizado numerando los archivos para seguir el 
 ## 🛠️ Tecnologías y Conceptos Aplicados
 
 * **Snowflake:** Arquitectura multi-capa, Vistas Seguras, Control de Acceso Basado en Roles (RBAC), Change Data Capture (CDC) con Streams & Tasks, Time Travel (Reprocesado), Query Profiling.
+* * **Ingeniería de Datos:** Procesos ETL con **Materialización en Staging** para optimización de recursos.
 * **Modelado de Datos:** Esquema en Estrella (Star Schema), SCD Tipo 1.
 * **Power BI:** Importación de datos, Modelado visual, DAX básico, Formato condicional y Cuadros de mando ejecutivos.
 
